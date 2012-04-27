@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="phone">Phone!</string>
+     <string name="allinfo">All info!</string>
+    <string name="aboutphone">About phone!</string>
+    <string name="aboutbattery">About battery!</string>
+    <string name="aboutnetwork">About network!</string>
+     <string name="aboutfirmware">About firmware!</string>
+    <string name="reboot">Reboot!</string>
+    <string name="turnoff">Turn off!</string>
+    <string name="app_name">File system Explorer</string>
+    <string name="menu_searchaudio">Search Audio</string>
+    <string name="menu_searchvideo">Search Videos</string>
+    <string name="menu_searchimage">Search Images</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">Type</string>
+    <string name="menu_quit">Quit</string>
+    <string name="op_open">Open</string>
+    <string name="op_copy">Copy</string>
+    <string name="op_paste">Paste</string>
+    <string name="op_rename">Rename</string>
+    <string name="op_delete">Delete</string>
+    <string name="op_details">Details</string>
+    <string name="op_newfolder">New Folder</string>
+    <string name="op_send">Send</string>
+
+    <color name="Green">#ff00ff00</color>
+
+</resources>

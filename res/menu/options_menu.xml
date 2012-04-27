@@ -1,0 +1,36 @@
+
+<!-- Options Menu for SearchableActivity and WordActivity. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/phone" android:title="@string/phone">
+        <menu>
+            <group android:id="@+id/group2">
+                <item android:id="@+id/aboutphone" android:title="@string/aboutphone" android:icon="@drawable/music" />
+                <item android:id="@+id/aboutbattery" android:title="@string/aboutbattery" android:icon="@drawable/music" />
+				<item android:id="@+id/aboutnetwork" android:title="@string/aboutnetwork" android:icon="@drawable/movies" />
+				<item android:id="@+id/aboutfirmware" android:title="@string/aboutfirmware" android:icon="@drawable/firmware" />
+				<item android:id="@+id/reboot" android:title="@string/reboot" android:icon="@drawable/pictures" />
+				<item android:id="@+id/turnoff" android:title="@string/turnoff" android:icon="@drawable/pictures" />
+				<item android:id="@+id/allinfo" android:title="@string/allinfo" android:icon="@drawable/pictures" />
+	        </group>
+        </menu>
+    </item>
+    <item android:id="@+id/Send" android:title="@string/op_send"></item>
+	<item android:id="@+id/Quit" android:title="@string/menu_quit" android:icon="@drawable/quit" />
+	<item android:id="@+id/newfolder" android:title="@string/op_newfolder" android:icon="@drawable/newfolder" />
+	<item android:id="@+id/open" android:title="@string/op_open" android:icon="@drawable/open"/>
+    <item android:id="@+id/copy" android:title="@string/op_copy" android:icon="@drawable/copy"/>
+    <item android:id="@+id/paste" android:title="@string/op_paste" android:icon="@drawable/open"/>
+    <item android:id="@+id/rename" android:title="@string/op_rename" android:icon="@drawable/rename"/>
+    <item android:id="@+id/delete" android:title="@string/op_delete" android:icon="@drawable/deletemenu"/>
+    <item android:id="@+id/details" android:title="@string/op_details" android:icon="@drawable/deletemenu"/>
+    <item android:id="@+id/Search" android:title="@string/search_label">
+        <menu>
+            <group android:id="@+id/group1">
+                <item android:id="@+id/Search_Audio" android:title="@string/menu_searchaudio" android:icon="@drawable/music" />
+				<item android:id="@+id/Search_Video" android:title="@string/menu_searchvideo" android:icon="@drawable/movies" />
+				<item android:id="@+id/Search_Image" android:title="@string/menu_searchimage" android:icon="@drawable/pictures" />
+	        </group>
+        </menu>
+    </item>
+     	
+</menu>

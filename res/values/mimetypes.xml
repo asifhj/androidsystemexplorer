@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="audio">
+<item>aif</item>
+<item>aifc</item>
+<item>aiff</item>
+<item>au</item>
+<item>mid</item>
+<item>mp3</item>
+<item>ogg</item>
+<item>snd</item>
+<item>wav</item>
+</string-array>
+<string-array name="video">
+<item>mp4</item>
+<item>3gp</item>
+<item>webm</item>
+<item>mkv</item>
+</string-array>
+<string-array name="image">
+<item>jpg</item>
+<item>jpeg</item>
+<item>png</item>
+<item>bmp</item>
+<item>gif</item>
+<item>webp</item>
+</string-array>
+</resources>
